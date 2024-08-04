@@ -26,7 +26,7 @@ function Stopwatch() {
 return(
     <>
     <h1>Stopwatch</h1>
-    <h3>Time : {formatTime(timer)}</h3>
+    <h3>Time: {formatTime(timer)}</h3>
     <button onClick={() => {
         setIsrunning((prev) => !prev);
     }}>{isRunning? "Stop" : "Start"}</button>
